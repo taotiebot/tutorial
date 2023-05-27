@@ -5477,7 +5477,7 @@ punycode@^2.1.0:
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.3.0.tgz#f67fa67c94da8f4d0cfff981aee4118064199b8f"
   integrity sha512-rRV+zQD8tVFys26lAGR9WUuS4iUAngJScM+ZRSKtvl5tKeZ2t5bvdNFdNHBW9FWR4guGHlgmsZ1G7BSm2wTbuA==
 
-putout-plugin-taotie-remove-static-toggles@^1.1.0:
+putout-plugin-taotie-remove-static-toggles@1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/putout-plugin-taotie-remove-static-toggles/-/putout-plugin-taotie-remove-static-toggles-1.1.0.tgz#5e1365a9ab33a28137b728e71facf5f595a2d783"
   integrity sha512-lKv8puMqQN6jsrqTo433B/dRe2m8iYgFXmmOUZOEwRR4UZ+7PtUsNeyP9Rqu0aSfVvOgYy4sZEuH3XvXW7SGsQ==
