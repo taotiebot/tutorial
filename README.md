@@ -1,4 +1,4 @@
-# tutorial
+# [@taotiebot/tutorial](https://github.com/taotiebot/tutorial)
 
 An example repository to demonstrate 🐲 Taotie plugins
 
