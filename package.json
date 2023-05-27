@@ -1,0 +1,51 @@
+{
+    "name": "tutorial",
+    "version": "1.0.0",
+    "description": "An example repository to demonstrate 🐲 Taotie plugins",
+    "main": "src/index.ts",
+    "repository": "git@github.com:taotiebot/tutorial.git",
+    "author": "Murshid Azher <hello@murshidazher.com>",
+    "license": "MIT",
+    "private": false,
+    "scripts": {
+        "format": "npm-run-all --parallel format:*",
+        "format:js": "yarn lint:js --fix",
+        "format:prettier": "prettier src/**/*.ts --write",
+        "lint": "npm-run-all --parallel lint:*",
+        "lint:js": "eslint --cache .",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "devDependencies": {
+        "@commitlint/cli": "17.6.3",
+        "@newlevelup/browserslist-config": "1.0.0",
+        "@newlevelup/commitlint-config": "1.1.9",
+        "@newlevelup/editor-config": "1.0.1",
+        "@newlevelup/eslint-config": "1.0.49",
+        "@newlevelup/prettier-config": "1.0.7",
+        "@newlevelup/syncpack-config": "1.2.0",
+        "eslint": "8.41.0",
+        "eslint-plugin-n": "15.2.4",
+        "eslint-plugin-putout": "17.0.0",
+        "husky": "8.0.3",
+        "is-ci": "3.0.1",
+        "npm-run-all": "4.1.5",
+        "prettier": "2.8.8",
+        "putout": "29.8.3",
+        "putout-plugin-taotie-remove-static-toggles": "1.1.0",
+        "syncpack": "8.4.11",
+        "typescript": "5.0.4"
+    },
+    "eslintConfig": {
+        "extends": [
+            "@newlevelup"
+        ],
+        "rules": {
+            "no-useless-return": "off",
+            "@typescript-eslint/array-type": "off"
+        },
+        "plugins": [
+            "putout",
+            "n"
+        ]
+    }
+}

@@ -1,2 +1,7 @@
 # tutorial
-An example repo for taotie app
+
+An example repository to demonstrate 🐲 Taotie plugins
+
+## LICENSE
+
+[MIT](./LICENSE) © Murshid Azher.
