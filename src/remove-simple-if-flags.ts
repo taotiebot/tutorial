@@ -4,6 +4,11 @@ const context = {
   featureFlag: true,
   fflag: {
     featureFlag: true
+  },
+  data: {
+    fflag: {
+      featureFlag: true
+    }
   }
 }
 
@@ -74,6 +79,20 @@ if (!context.featureFlag) {
 
 // If feature flag within multiple context (inverse) (f2)
 if (!context.fflag.featureFlag) {
+  f1()
+} else {
+  f2()
+}
+
+// If feature flag within multiple context (f1)
+if (context.data.fflag.featureFlag) {
+  f1()
+} else {
+  f2()
+}
+
+// If feature flag within multiple context (f2)
+if (!context.data.fflag.featureFlag) {
   f1()
 } else {
   f2()
