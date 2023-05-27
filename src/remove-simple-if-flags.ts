@@ -7,30 +7,31 @@ const context = {
   }
 }
 
-// If feature flag is true
+// If feature flag is true (f1)
 if (featureFlag) {
   f1()
 } else {
   f2()
 }
 
-// If feature flag is false
+// If feature flag is false (f2)
 if (!featureFlag) {
   f1()
 } else {
   f2()
 }
 
-// If conditional doesn't have a block wrapper
+// If conditional doesn't have a block wrapper (f1)
 if (featureFlag) f1()
 else {
   f2()
 }
 
+// If else conditional doesn't have a block wrapper (f2)
 if (!featureFlag) f1()
 else f2()
 
-// If there are multiple statements inside the block
+// If there are multiple statements inside the block (f1, f2, f3)
 if (featureFlag) {
   f1()
   f2()
@@ -40,7 +41,7 @@ if (featureFlag) {
   f1()
 }
 
-// If there are multiple statements inside the block (inverse)
+// If there are multiple statements inside the block (inverse) (f2, f1)
 if (!featureFlag) {
   f1()
   f2()
@@ -50,28 +51,28 @@ if (!featureFlag) {
   f1()
 }
 
-// If feature flag within context
+// If feature flag within context (f1)
 if (context.featureFlag) {
   f1()
 } else {
   f2()
 }
 
-// If feature flag within multiple context
+// If feature flag within multiple context (f1)
 if (context.fflag.featureFlag) {
   f1()
 } else {
   f2()
 }
 
-// If feature flag within context (inverse)
+// If feature flag within context (inverse) (f2)
 if (!context.featureFlag) {
   f1()
 } else {
   f2()
 }
 
-// If feature flag within multiple context (inverse)
+// If feature flag within multiple context (inverse) (f2)
 if (!context.fflag.featureFlag) {
   f1()
 } else {

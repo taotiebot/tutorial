@@ -1,5 +1,4 @@
 // Some typescript symbols
-
 export const featureFlag = 'featureFlag'
 
 export function f1(): string {
@@ -10,6 +9,6 @@ export function f2(): string {
   return 'f2'
 }
 
-export function f3(...args: any): string {
+export function f3(): string {
   return 'f2'
 }
