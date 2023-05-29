@@ -6,6 +6,7 @@
     }
   },
   "rules": {
+    "typescript": "on",
     "remove-unused-variables": "on"
   },
   "plugins": ["taotie-remove-static-toggles"],
